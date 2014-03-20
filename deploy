@@ -1,0 +1,12 @@
+#!/bin/bash
+
+rm -rf build &&
+bundle exec middleman build &&
+
+cd build &&
+
+git init &&
+git remote add origin git@github.com:shiroyasha/shiroyasha.github.io.git &&
+git add . --all &&
+git commit -am "new version `date`" &&
+git push origin master:master --force
