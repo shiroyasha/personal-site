@@ -7,4 +7,6 @@ gem "middleman-blog", "~> 3.5.2"
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
-gem 'middleman-gh-pages'
+
+gem "redcarpet"
+gem "middleman-syntax"
