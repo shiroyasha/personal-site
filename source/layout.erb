@@ -3,21 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
-    <title><%#= "#{current_article.title} &ndash;" unless current_article %> Igor Šarčević</title>
+    <title><%= "#{current_article.title} &ndash;" if current_article %> Igor Šarčević</title>
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
     <%= stylesheet_link_tag 'layout' %>
   </head>
   <body>
     <div class="layout">
-      <% if current_page.respond_to? :title %>
-      <div id="main" role="main">
-        <header>
-          <h1 class="pageTitle"><%= current_page.title %></h1>
-          <p>written by <a href="https://twitter.com/igor_sarcevic">@igor_sarcevic</a> on <%= current_page.date.strftime("%B %d, %Y")%></p>
-        </header>
-
-        <%= yield %>
-      </div>
-    <% end %>
+      <%= yield %>
+    </div>
   </body>
 </html>

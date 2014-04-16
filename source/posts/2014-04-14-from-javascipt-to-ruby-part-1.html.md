@@ -2,6 +2,7 @@
 title: From JavaScript to Ruby, Part 1
 date: 2014-04-14
 tags: example
+disqus: 76563670-c5b9-11e3-9c1a-0800200c9a66
 ---
 
 For more than 2 years now I have written almost all my applications in JavaScript or a similar JavaScript based language like CoffeeScript or LiveScript.
@@ -9,10 +10,9 @@ In the meantime I got quiet fond of the functional aspect of the language, the p
 
 But as I transferred to a different company where the primary language is Ruby, I have started to adopt this strange little beast of a language. This is a tale of my quest to learn Ruby filled with moments of joy and frustration, and some interesting insights about the difference in the culture between the two.
 
-# I really miss my functions
+# Blocks are not anonymous functions
 The first thing I noticed is that people don't really like functions all that much as they like them in JavaScript.
 
-### Blocks are not anonymous functions
 Conversely they do like these things called blocks, an anonymous function like thing with a little more power then you would expect. And when I say a little more power I mean they can manipulate the scope they are inside of, for example:
 
 ``` javascript
@@ -26,10 +26,10 @@ function javascriptAnonymousFunctions() {
 ```
 
 ``` ruby
-def rubyBlocks
+def ruby_blocks
   [1, 2, 3, 4, 5].each do |el|
     puts el
-    return # this returns from the rubyBlock method
+    return # this returns from the ruby_blocks method
   end
   puts "I will NOT be written out in the console"
 end
@@ -37,7 +37,7 @@ end
 
 **Note:** To get the same behavior as in JavaScript you can of course prepend your block with _lamba_.
 
-### Functions are better when they are shared
+# Functions are better when they are shared
 
 Of course in the above example the ruby version is more powerful and it gives you no example why I miss my functions in ruby. But, the beauty of functions could be only seen when they are reused and combined with other functions. For example:
 
