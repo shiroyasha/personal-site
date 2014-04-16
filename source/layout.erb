@@ -9,32 +9,15 @@
   </head>
   <body>
     <div class="layout">
+      <% if current_page.respond_to? :title %>
       <div id="main" role="main">
+        <header>
+          <h1 class="pageTitle"><%= current_page.title %></h1>
+          <p>written by <a href="https://twitter.com/igor_sarcevic">@igor_sarcevic</a> on <%= current_page.date.strftime("%B %d, %Y")%></p>
+        </header>
+
         <%= yield %>
       </div>
-
-      <aside>
-        <h3>Recent Articles</h3>
-        <ul>
-          <% blog.articles[0...10].each do |article| %>
-            <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
-          <% end %>
-        </ul>
-
-        <h3>Tags</h3>
-        <ul>
-          <% blog.tags.each do |tag, articles| %>
-            <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
-          <% end %>
-        </ul>
-
-        <h3>By Year</h3>
-        <ul>
-          <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
-            <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
-          <% end %>
-        </ul>
-      </div>
-    </div>
+    <% end %>
   </body>
 </html>
