@@ -1,0 +1,23 @@
+#!/usr/bin/ruby
+
+require "date"
+require "securerandom"
+
+path = File.expand_path("source/posts")
+date = Date.today.to_s
+
+title = ARGV[0]
+title_no_spaces = title.gsub(/\W/, "-")
+
+content = %Q{---
+title: #{ARGV[0]}
+date: #{date}
+disqus: #{SecureRandom.uuid}
+published: false
+---
+
+}
+
+new_post = File.open("#{path}/#{date}-#{title_no_spaces}.html.md", "w")
+
+new_post.write(content)

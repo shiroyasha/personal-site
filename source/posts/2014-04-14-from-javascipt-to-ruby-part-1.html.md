@@ -1,7 +1,6 @@
 ---
 title: From JavaScript to Ruby, Part 1
 date: 2014-04-14
-tags: example
 disqus: 76563670-c5b9-11e3-9c1a-0800200c9a66
 ---
 
