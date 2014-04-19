@@ -6,6 +6,7 @@ published: true
 ---
 
 This post is a continuation of [From Javascript to Ruby, Part 1](/posts/from-javascript-to-ruby-part-1.html), and also an answer to [@dear_gamemaster](https://twitter.com/dear_gamemaster)'s blog [post](http://www.pixelablaze.com/re-from-javascript-to-ruby/)
+READMORE
 
 # Extending classes is an antipattern
 

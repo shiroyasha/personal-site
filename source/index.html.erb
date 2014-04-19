@@ -20,7 +20,8 @@ per_page: 10
     <h1 class="title"><%= link_to article.title, article %></h1>
   </header>
 
-  <%= article.summary(250) %>
+  <%= article.summary(300) %>
+  <p><%= link_to "Continue reading >", article %></p>
   </article>
 <% end %>
 

@@ -6,6 +6,7 @@ disqus: 76563670-c5b9-11e3-9c1a-0800200c9a66
 
 For more than 2 years now I have written almost all my applications in JavaScript or a similar JavaScript based language like CoffeeScript or LiveScript.
 In the meantime I got quiet fond of the functional aspect of the language, the prototypes, and the unique way JavaScript handles objects and inheritance.
+READMORE
 
 But as I transferred to a different company where the primary language is Ruby, I have started to adopt this strange little beast of a language. This is a tale of my quest to learn Ruby filled with moments of joy and frustration, and some interesting insights about the difference in the culture between the two.
 
