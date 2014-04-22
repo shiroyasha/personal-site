@@ -18,6 +18,9 @@ published: false
 
 }
 
-new_post = File.open("#{path}/#{date}-#{link}.html.md", "w")
+file_path = "#{path}/#{date}-#{link}.html.md"
+
+new_post = File.open(file_path, "w")
 
 new_post.write(content)
+puts "created file: #{file_path}"
