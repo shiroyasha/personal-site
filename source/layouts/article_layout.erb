@@ -1,12 +1,12 @@
 <% wrap_layout :layout do %>
 <nav>
-  <a href="/">< Home</a>
+<a href="/"><i class="fa fa-home fa-2x"></i></a>
 </nav>
 
-<article>
+<article class='postPage'>
   <header>
     <h1 class="title"><%= current_page.title %></h1>
-    <p>written by <a href="https://twitter.com/igor_sarcevic">@igor_sarcevic</a> ⌚ <%= current_page.date.strftime("%B %d, %Y")%></p>
+    <!--<p>written by <a href="https://twitter.com/igor_sarcevic">@igor_sarcevic</a> ⌚ <%= current_page.date.strftime("%B %d, %Y")%></p>-->
   </header>
 
   <%= yield %>

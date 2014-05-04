@@ -3,8 +3,11 @@ pageable: true
 per_page: 10
 ---
 <header class="blog-header">
-  <a href="https://twitter.com/igor_sarcevic">@igor_sarcevic</a>
+  Hi! This is a simple blog where I document and share my ideas with others. I write a lot about my programming endeveours, and the things I love and hate while developing software.
+  You can also find me on twitter <a href="https://twitter.com/igor_sarcevic">@igor_sarcevic</a>
 </header>
+<hr>
+
 
 <% if paginate && num_pages > 1 %>
   <p>Page <%= page_number %> of <%= num_pages %></p>
@@ -15,13 +18,13 @@ per_page: 10
 <% end %>
 
 <% page_articles.each_with_index do |article, i| %>
-  <article>
+  <article class="listing">
   <header>
-    <h1 class="title"><%= link_to article.title, article %></h1>
+  <h1 class="title"><%= page_articles.length - i %>. <%= link_to article.title, article %></h1>
   </header>
 
-  <%= article.summary(300) %>
-  <p><%= link_to "Continue reading >", article %></p>
+  <!-- <%= article.summary(300) %>
+  <p><%= link_to "Continue reading >", article %></p>-->
   </article>
 <% end %>
 
