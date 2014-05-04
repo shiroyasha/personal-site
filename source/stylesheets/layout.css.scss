@@ -11,10 +11,11 @@ html,body {
 }
 
 footer {
-  font-size: 20px;
+  font-size: 25px;
+  font-style: italic;
   padding: 50px 0;
-  background-color: #fdf6e3;
-  color: #93a1a1;
+  background-color: $blue;
+  color: white;
   text-align: center;
   margin-top: 50px;
 }
