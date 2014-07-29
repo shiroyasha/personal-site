@@ -1,0 +1,602 @@
+/* line 17, /home/igor/code/blog/vendor/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, /home/igor/code/blog/vendor/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, /home/igor/code/blog/vendor/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, /home/igor/code/blog/vendor/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, /home/igor/code/blog/vendor/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, /home/igor/code/blog/vendor/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, /home/igor/code/blog/vendor/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, /home/igor/code/blog/vendor/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, /home/igor/code/blog/vendor/bundle/ruby/2.1.0/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+/* line 1, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+ghlight {
+  background-color: #ffffcc; }
+
+/* line 2, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .c {
+  color: #586e75; }
+
+/* Comment */
+/* line 3, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .err {
+  color: #93a1a1; }
+
+/* Error */
+/* line 4, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .g {
+  color: #93a1a1; }
+
+/* Generic */
+/* line 5, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .k {
+  color: #859900; }
+
+/* Keyword */
+/* line 6, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .l {
+  color: #93a1a1; }
+
+/* Literal */
+/* line 7, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .n {
+  color: #93a1a1; }
+
+/* Name */
+/* line 8, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .o {
+  color: #859900; }
+
+/* Operator */
+/* line 9, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .x {
+  color: #cb4b16; }
+
+/* Other */
+/* line 10, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .p {
+  color: #93a1a1; }
+
+/* Punctuation */
+/* line 11, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .cm {
+  color: #586e75; }
+
+/* Comment.Multiline */
+/* line 12, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .cp {
+  color: #859900; }
+
+/* Comment.Preproc */
+/* line 13, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .nx {
+  color: #586e75; }
+
+/* Comment.Single */
+/* line 14, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .cs {
+  color: #859900; }
+
+/* Comment.Special */
+/* line 15, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .gd {
+  color: #2aa198; }
+
+/* Generic.Deleted */
+/* line 16, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .ge {
+  color: #93A1A1;
+  font-style: italic; }
+
+/* Generic.Emph */
+/* line 17, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .gr {
+  color: #dc322f; }
+
+/* Generic.Error */
+/* line 18, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .gh {
+  color: #cb4b16; }
+
+/* Generic.Heading */
+/* line 19, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .gi {
+  color: #859900; }
+
+/* Generic.Inserted */
+/* line 20, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .go {
+  color: #93a1a1; }
+
+/* Generic.Output */
+/* line 21, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .gp {
+  color: #93a1a1; }
+
+/* Generic.Prompt */
+/* line 22, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .gs {
+  color: #93A1A1;
+  font-weight: bold; }
+
+/* Generic.Strong */
+/* line 23, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .gu {
+  color: #cb4b16; }
+
+/* Generic.Subheading */
+/* line 24, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .gt {
+  color: #93a1a1; }
+
+/* Generic.Traceback */
+/* line 25, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .kc {
+  color: #cb4b16; }
+
+/* Keyword.Constant */
+/* line 26, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .kd {
+  color: #268bd2; }
+
+/* Keyword.Declaration */
+/* line 27, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .kn {
+  color: #859900; }
+
+/* Keyword.Namespace */
+/* line 28, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .kp {
+  color: #859900; }
+
+/* Keyword.Pseudo */
+/* line 29, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .kr {
+  color: #268bd2; }
+
+/* Keyword.Reserved */
+/* line 30, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .kt {
+  color: #dc322f; }
+
+/* Keyword.Type */
+/* line 31, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .ld {
+  color: #93a1a1; }
+
+/* Literal.Date */
+/* line 32, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .m {
+  color: #2aa198; }
+
+/* Literal.Number */
+/* line 33, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .s {
+  color: #2aa198; }
+
+/* Literal.String */
+/* line 34, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .na {
+  color: #93a1a1; }
+
+/* Name.Attribute */
+/* line 35, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .nb {
+  color: #b58900; }
+
+/* Name.Builtin */
+/* line 36, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .nc {
+  color: #268bd2; }
+
+/* Name.Class */
+/* line 37, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .no {
+  color: #cb4b16; }
+
+/* Name.Constant */
+/* line 38, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .nd {
+  color: #268bd2; }
+
+/* Name.Decorator */
+/* line 39, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .ni {
+  color: #cb4b16; }
+
+/* Name.Entity */
+/* line 40, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .ne {
+  color: #cb4b16; }
+
+/* Name.Exception */
+/* line 41, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .nf {
+  color: #268bd2; }
+
+/* Name.Function */
+/* line 42, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .nl {
+  color: #93a1a1; }
+
+/* Name.Label */
+/* line 43, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .nn {
+  color: #93a1a1; }
+
+/* Name.Namespace */
+/* line 44, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .c1 {
+  color: #93a1a1; }
+
+/* Name.Other */
+/* line 45, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .py {
+  color: #93a1a1; }
+
+/* Name.Property */
+/* line 46, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .nt {
+  color: #268bd2; }
+
+/* Name.Tag */
+/* line 47, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .nv {
+  color: #268bd2; }
+
+/* Name.Variable */
+/* line 48, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .ow {
+  color: #859900; }
+
+/* Operator.Word */
+/* line 49, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .w {
+  color: #93a1a1; }
+
+/* Text.Whitespace */
+/* line 50, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .mf {
+  color: #2aa198; }
+
+/* Literal.Number.Float */
+/* line 51, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .mh {
+  color: #2aa198; }
+
+/* Literal.Number.Hex */
+/* line 52, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .mi {
+  color: #2aa198; }
+
+/* Literal.Number.Integer */
+/* line 53, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .mo {
+  color: #2aa198; }
+
+/* Literal.Number.Oct */
+/* line 54, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .sb {
+  color: #586e75; }
+
+/* Literal.String.Backtick */
+/* line 55, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .sc {
+  color: #2aa198; }
+
+/* Literal.String.Char */
+/* line 56, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .sd {
+  color: #93a1a1; }
+
+/* Literal.String.Doc */
+/* line 57, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .s2 {
+  color: #2aa198; }
+
+/* Literal.String.Double */
+/* line 58, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .se {
+  color: #cb4b16; }
+
+/* Literal.String.Escape */
+/* line 59, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .sh {
+  color: #93a1a1; }
+
+/* Literal.String.Heredoc */
+/* line 60, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .si {
+  color: #2aa198; }
+
+/* Literal.String.Interpol */
+/* line 61, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .sx {
+  color: #2aa198; }
+
+/* Literal.String.Other */
+/* line 62, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .sr {
+  color: #dc322f; }
+
+/* Literal.String.Regex */
+/* line 63, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .s1 {
+  color: #2aa198; }
+
+/* Literal.String.Single */
+/* line 64, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .ss {
+  color: #2aa198; }
+
+/* Literal.String.Symbol */
+/* line 65, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .bp {
+  color: #268bd2; }
+
+/* Name.Builtin.Pseudo */
+/* line 66, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .vc {
+  color: #268bd2; }
+
+/* Name.Variable.Class */
+/* line 67, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .vg {
+  color: #268bd2; }
+
+/* Name.Variable.Global */
+/* line 68, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .vi {
+  color: #268bd2; }
+
+/* Name.Variable.Instance */
+/* line 69, /home/igor/code/blog/source/stylesheets/_solarized-light.css.scss */
+.highlight .il {
+  color: #2aa198; }
+
+/* Literal.Number.Integer.Long */
+/* line 8, /home/igor/code/blog/source/stylesheets/layout.css.scss */
+html, body {
+  font-family: "Gentium Basic", "Helvetica Neue", Helvetica, Arial, sans-serif, serif;
+  font-size: 100%;
+  -webkit-font-smoothing: antialiased;
+  background: url(http://subtlepatterns.com/patterns/debut_dark.png);
+  color: white;
+  font-size: 20px; }
+
+/* line 19, /home/igor/code/blog/source/stylesheets/layout.css.scss */
+strong {
+  color: goldenrod; }
+
+/* line 23, /home/igor/code/blog/source/stylesheets/layout.css.scss */
+.blog-header {
+  padding-top: 50px;
+  text-align: center; }
+  /* line 27, /home/igor/code/blog/source/stylesheets/layout.css.scss */
+  .blog-header img.round-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid white; }
+  /* line 35, /home/igor/code/blog/source/stylesheets/layout.css.scss */
+  .blog-header h1.name {
+    font-size: 54px;
+    font-weight: bold;
+    line-height: 90px; }
+  /* line 41, /home/igor/code/blog/source/stylesheets/layout.css.scss */
+  .blog-header h2.occupation {
+    font-size: 32px;
+    font-weight: bold;
+    color: forestgreen; }
+
+/* line 48, /home/igor/code/blog/source/stylesheets/layout.css.scss */
+.projects {
+  max-width: 660px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: auto;
+  text-align: center; }
+  /* line 55, /home/igor/code/blog/source/stylesheets/layout.css.scss */
+  .projects .project {
+    display: inline-block;
+    width: 310px;
+    text-align: center;
+    padding-bottom: 30px; }
+    /* line 61, /home/igor/code/blog/source/stylesheets/layout.css.scss */
+    .projects .project a {
+      text-decoration: none;
+      color: white;
+      border: 0; }
+      /* line 66, /home/igor/code/blog/source/stylesheets/layout.css.scss */
+      .projects .project a img {
+        width: 250px;
+        height: 180px;
+        border: 3px solid white;
+        border-radius: 3px; }
+      /* line 73, /home/igor/code/blog/source/stylesheets/layout.css.scss */
+      .projects .project a h1 {
+        font-size: 30px;
+        line-height: 1.5; }
+    /* line 80, /home/igor/code/blog/source/stylesheets/layout.css.scss */
+    .projects .project:hover img {
+      border-color: goldenrod; }
+
+/* line 87, /home/igor/code/blog/source/stylesheets/layout.css.scss */
+.follow {
+  text-align: center; }
+
+/* line 91, /home/igor/code/blog/source/stylesheets/layout.css.scss */
+footer {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px; }
+
+/*
+footer {
+  font-size: 25px;
+  font-style: italic;
+  padding: 50px 0;
+  background-color: $blue;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+strong {
+  font-weight: 700;
+}
+
+nav {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.blog-header {
+  a {
+    font-size: 40px;
+  }
+  padding-bottom: 30px;
+  font-size: 40px;
+  line-height: 1.5;
+  font-style: italic;
+  color: $black;
+}
+
+code {
+  background-color: #fdf6e3;
+  border: 1px solid #cb4b16;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+
+article.postPage {
+  margin-bottom: 100px;
+
+  header {
+    h1.title {
+      font-size: 40px;
+      font-family: Georgia;
+      font-style: italic;
+      text-align: center;
+      margin: 0;
+    }
+
+    padding-bottom: 24px;
+    border-bottom: 6px solid #41b7d8;
+  }
+
+  h1 {
+    font-size: 30px;
+    margin: 70px 0 30px 0;
+    text-align: center;
+    font-style: italic;
+  }
+}
+
+a {
+  color: $blue;
+  padding-bottom: 2px;
+  text-decoration: none;
+  border-bottom: 0 solid $blue;
+
+  &:hover {
+    border-bottom-width: 3px;
+    color: $blue !important;
+  }
+}
+
+article.listing {
+  a {
+    font-size: 30px;
+  }
+}
+
+
+p, ul{
+  padding: 15px 0;
+  font-size: 20px;
+  line-height: 1.5;
+  color: $black;
+}
+
+ul {
+  padding: 25px 2em;
+  list-style: disc;
+}
+
+pre {
+  margin: 1em 0;
+  padding: 1em;
+  font-family: monospace;
+  font-size: 1.4em;
+  line-height: 1.35;
+  background-color: #fdf6e3;
+}
+
+
+
+.layout {
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+
+  #main {
+    width: 100%;
+    float: left;
+    @include box-sizing(border-box);
+    padding: 1rem;
+  }
+
+  header {
+    h1 {
+      font-size: 40px;
+    }
+    margin: 60px 0 30px 0;
+  }
+}
+*/
